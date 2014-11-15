@@ -3,7 +3,8 @@ require.config({
 		jsx: "../ext/require-jsx",
 		JSXTransformer: "../ext/JSXTransformer",
 		React: "../ext/react",
-		underscore: "../ext/underscore"
+		underscore: "../ext/underscore",
+		routie: "../ext/routie"
 	},
 
 	shim: {
@@ -12,6 +13,9 @@ require.config({
 		},
 		JSXTransformer: {
 			exports: "JSXTransformer"
+		},
+		routie: {
+			exports: "routie"
 		}
 	}
 });
